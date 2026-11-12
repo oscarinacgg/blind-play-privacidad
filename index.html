@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad de Blind Play</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 24px; color: #111; background: #fff; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.2rem; margin-top: 28px; }
+    a { color: #0047ab; }
+    ul { padding-left: 22px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Política de privacidad de Blind Play</h1>
+    <p><strong>Última actualización:</strong> 12 de noviembre de 2026</p>
+
+    <p>Blind Play es una app de juegos accesible para personas con discapacidad visual, que funciona con lectores de pantalla como Jieshuo y NVDA. Esta política explica qué datos usa la app y qué datos no recoge.</p>
+
+    <h2>1. Nombre de usuario</h2>
+    <p>La app pide un nombre de usuario, que es opcional. Ese nombre se guarda solo en el almacenamiento local de tu dispositivo. No se envía a ningún servidor.</p>
+
+    <h2>2. Datos que no recoge</h2>
+    <p>Blind Play no pide cuenta, correo, contraseña, ubicación, contactos, fotos ni micrófono. No recoge datos personales y no muestra anuncios.</p>
+
+    <h2>3. Juegos en línea (Stop y Dominó)</h2>
+    <p>Para jugar en línea, la app crea una sala con un código de 4 dígitos y se conecta a través de Firebase Realtime Database, un servicio de Google. En esa sala se guardan:</p>
+    <ul>
+      <li>el código de la sala,</li>
+      <li>la hora en que se creó,</li>
+      <li>las jugadas y las respuestas de la partida,</li>
+      <li>si cada jugador está conectado o no.</li>
+    </ul>
+    <p>Firebase también recibe datos técnicos de conexión, como la dirección IP del dispositivo, que son necesarios para que la conexión funcione. Blind Play no vende ni comparte estos datos con terceros.</p>
+    <p>Las salas se borran al terminar la partida, aproximadamente un minuto después del final. Si un jugador se desconecta y no vuelve en 90 segundos, la sala también se borra. Si la app se cierra de golpe, la sala anterior se borra la próxima vez que abras el juego en línea. Para hacer esto, la app guarda en tu dispositivo el código y la hora de la última sala que creaste. Si por alguna falla una sala queda guardada, puedes pedir que la borremos escribiendo a <a href="mailto:tecnodisca@gmail.com">tecnodisca@gmail.com</a>.</p>
+    <p>Puedes leer cómo Google maneja los datos en la <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">política de privacidad de Firebase</a> y en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.</p>
+
+    <h2>4. Estadísticas de uso</h2>
+    <p>Blind Play usa Firebase Analytics para saber cuántas personas usan la app y qué pantallas abren. Estos datos se usan solo para mejorar el juego. Google Analytics puede recoger, de forma automática:</p>
+    <ul>
+      <li>la ciudad y las coordenadas aproximadas de la ciudad desde donde se usa la app,</li>
+      <li>la marca, el modelo y el nombre del dispositivo,</li>
+      <li>la versión del sistema operativo y de la plataforma,</li>
+      <li>la resolución de la pantalla.</li>
+    </ul>
+    <p>Google Analytics es un servicio independiente de Firebase, con sus propios términos. Puedes leer más en la <a href="https://support.google.com/analytics/answer/12002752?hl=es" target="_blank" rel="noopener">ayuda de Google Analytics</a> y en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.</p>
+
+    <h2>5. Permisos</h2>
+    <p>La app necesita acceso a internet para los juegos en línea. No pide otros permisos sensibles.</p>
+
+    <h2>6. Cambios en esta política</h2>
+    <p>Si esta política cambia, se actualizará en esta misma página y en la fecha de arriba.</p>
+
+    <h2>7. Contacto</h2>
+    <p>Si tienes dudas o quieres pedir que se borre algún dato, escribe a <a href="mailto:tecnodisca@gmail.com">tecnodisca@gmail.com</a>.</p>
+  </main>
+</body>
+</html>
